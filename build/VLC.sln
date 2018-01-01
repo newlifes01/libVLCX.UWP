@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libVLCX.UWP", "..\modules\libVLCX.UWP\libVLCX.UWP.vcxproj", "{DC8BBFAE-5203-44BE-9A7C-B3273038D676}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|Universal-ARM = Debug|Universal-ARM
+		Debug|Universal-x64 = Debug|Universal-x64
+		Debug|Universal-x86 = Debug|Universal-x86
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|Universal-ARM = Release|Universal-ARM
+		Release|Universal-x64 = Release|Universal-x64
+		Release|Universal-x86 = Release|Universal-x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Debug|ARM.ActiveCfg = Debug|ARM
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Debug|ARM.Build.0 = Debug|ARM
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Debug|Universal-ARM.ActiveCfg = Debug|ARM
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Debug|Universal-ARM.Build.0 = Debug|ARM
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Debug|Universal-x64.ActiveCfg = Debug|x64
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Debug|Universal-x64.Build.0 = Debug|x64
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Debug|Universal-x86.ActiveCfg = Debug|Win32
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Debug|Universal-x86.Build.0 = Debug|Win32
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Debug|x64.ActiveCfg = Debug|x64
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Debug|x64.Build.0 = Debug|x64
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Debug|x86.ActiveCfg = Debug|Win32
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Debug|x86.Build.0 = Debug|Win32
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Release|ARM.ActiveCfg = Release|ARM
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Release|ARM.Build.0 = Release|ARM
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Release|Universal-ARM.ActiveCfg = Release|ARM
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Release|Universal-ARM.Build.0 = Release|ARM
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Release|Universal-x64.ActiveCfg = Release|x64
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Release|Universal-x64.Build.0 = Release|x64
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Release|Universal-x86.ActiveCfg = Release|Win32
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Release|Universal-x86.Build.0 = Release|Win32
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Release|x64.ActiveCfg = Release|x64
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Release|x64.Build.0 = Release|x64
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Release|x86.ActiveCfg = Release|Win32
+		{DC8BBFAE-5203-44BE-9A7C-B3273038D676}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A4D36CB-3086-4FC4-A7BA-5C9BC790C54F}
+	EndGlobalSection
+EndGlobal

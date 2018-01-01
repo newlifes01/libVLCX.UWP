@@ -1,0 +1,96 @@
+﻿This project is about the port of VLC to the WinRT platform.
+
+The goal is to target Windows 10 Modern environment, on x86 and ARM (Windows RT).
+But also Windows 10 Mobile and other devices running the WinRT platform.
+
+Most of the media code engine is licensed under LGPL, like libVLC.
+The application is dual-licensed under GPLv2/MPL and the license might change later,
+if need be.
+
+How to compile libVLCX.UWP:
+-----------------------------
+
+You need:
+* Visual Studio 2015
+* Windows 10 TH2
+
+If you are only on Windows, skip the step 0)
+
+0) Cross-compile libvlc for WinRT
+---------------------------------
+You need:
+* A very, very, very recent Linux
+* build-essentials and all related build tools (make, autotools, git, etc...)
+* Prodigious patience and tenacity :)
+
+Build and install mingw-w64 SVN rev 5568 or higher (for libwinstorecompat).
+Be sure to pass --disable-shared when configuring GCC.
+
+Why? Statically linking to
+libgcc.a will ensure that all unused methods get stripped. It will drastically
+reduce the number of forbidden calls.
+
+Run ./compile.sh and generate vlc.7z
+
+1) Extract libVLC
+-----------------
+If you skipped step 0), take the most recent build, depending on your architecture.
+- For x86 and 64 versions, builds are located in http://nightlies.videolan.org/build/winrt-i686/ 
+and http://nightlies.videolan.org/build/winrt-x86_64/ 
+
+- For ARM version, builds are located in http://people.videolan.org/~hugo/
+
+Extract the libVLC contents from the archive to libvlc/<os>/vlc-<platform>/<configuration>
+<os> is either Windows, Windows Phone or Universal (Universal *includes* W10M)
+<platform> is either ARM or x86 or amd64
+<configuration>  is Debug or Release
+
+
+2) Install libvlcpp
+-------------------
+"git submodule update --init" in the libVLCX.UWP/ folder.
+
+
+3) Build
+----------------------------------
+Open the solution in build/VLC.sln
+Select target "Debug (Win32)"
+
+
+
+
+4）About LibVLC, LibVLCCore, libvlcx
+---------------------------------
+Most of the media code engine is licensed under LGPL, like libVLC.
+The application is dual-licensed under GPLv2/MPL and the license might change later,
+if need be.
+
+MIT
+---------------------------------
+Autofac.dll
+
+Newtonsoft.Json.dll
+
+ScrollWatcher.dll
+
+WinRTXamlToolkit.dll
+
+IF.Lastfm.Core.dll
+
+Microsoft.Graphics.Canvas.dll
+Microsoft.Graphics.Canvas.Numerics.dll
+
+WinRT.Triggers.dll
+
+SQLite.Net.Async.dll
+SQLite.Net.dll
+SQLite.Net.Platform.WinRT.dll
+
+Public Domain
+--------------------
+sqlite3.dll
+
+Windows 8.1 SDK Extensions
+--------------------
+Microsoft.Xaml.Interactions.dll
+Microsoft.Xaml.Interactivity.dll
