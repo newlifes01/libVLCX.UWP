@@ -57,8 +57,6 @@ Open the solution in build/VLC.sln
 Select target "Debug (Win32)"
 
 
-
-
 4）About LibVLC, LibVLCCore, libvlcx
 ---------------------------------
 Most of the media code engine is licensed under LGPL, like libVLC.
@@ -89,8 +87,3 @@ SQLite.Net.Platform.WinRT.dll
 Public Domain
 --------------------
 sqlite3.dll
-
-Windows 8.1 SDK Extensions
---------------------
-Microsoft.Xaml.Interactions.dll
-Microsoft.Xaml.Interactivity.dll
