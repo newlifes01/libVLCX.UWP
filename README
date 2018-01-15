@@ -46,18 +46,13 @@ Extract the libVLC contents from the archive to libvlc/<os>/vlc-<platform>/<conf
 <configuration>  is Debug or Release
 
 
-2) Install libvlcpp
--------------------
-"git submodule update --init" in the libVLCX.UWP/ folder.
-
-
-3) Build
+2) Build
 ----------------------------------
 Open the solution in build/VLC.sln
 Select target "Debug (Win32)"
 
 
-4）About LibVLC, LibVLCCore, libvlcx
+3）About LibVLC, LibVLCCore, libvlcx
 ---------------------------------
 Most of the media code engine is licensed under LGPL, like libVLC.
 The application is dual-licensed under GPLv2/MPL and the license might change later,
