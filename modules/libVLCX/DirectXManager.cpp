@@ -1,5 +1,5 @@
 /*****************************************************************************
- * Copyright ?2013-2014 VideoLAN
+ * Copyright © 2013-2014 VideoLAN
  *
  * Authors: Kellen Sunderland
  *

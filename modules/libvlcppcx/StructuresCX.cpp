@@ -1,7 +1,7 @@
 /*****************************************************************************
 * StructuresCX.cpp: LibVLC++ structures
 *****************************************************************************
-* Copyright ?2014 the VideoLAN team
+* Copyright © 2014 the VideoLAN team
 *
 * Authors: Hugo Beauzée-Luyssen <hugo@beauzee.fr>
 *
