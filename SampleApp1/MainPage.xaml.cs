@@ -119,6 +119,7 @@ namespace SampleApp1
             string path = $"winrt://{StorageApplicationPermissions.FutureAccessList.Add(mediaFile)}";
             libVLCX.Media media = new libVLCX.Media(vlcInstance, path, libVLCX.FromType.FromPath);
 
+            vlcMediaPlayer?.stop();
             vlcMediaPlayer = new libVLCX.MediaPlayer(media);
             vlcMediaPlayer.eventManager().OnPositionChanged += (s) => Debug.WriteLine($"{Position.ToString()} / {Duration.ToString()}");
             vlcMediaPlayer.setAudioOutput(audioDeviceId);
